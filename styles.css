@@ -1,0 +1,88 @@
+:root{
+    --button-color: #111827;
+    --nav-color: #1F2937;
+}
+body{
+    margin:-2rem;
+    background-color: #E5E7EB;
+}
+.emoji-nav{
+    background: var(--nav-color);
+    text-align: center;
+    height: 5rem;
+    padding: 3rem 0rem 0rem 2rem;
+    margin: 1rem 0rem 0rem 0rem;
+    color: cornsilk;
+}
+h1{
+    font-style: italic;
+}
+.emoji-img{
+  
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    max-width: 20rem;
+   
+}
+.text-div{
+    display: flex;
+  justify-content: center;
+}
+
+
+.text-input{
+    width: 30%;
+    height: 5rem;
+   margin:1% 0% 1% 35%;
+
+}
+.trans-btn{
+    margin:1% 0% 1% 45%;
+    outline: none;
+    background-color: var(--button-color);
+    color: cornsilk;
+    border: none;
+    border-radius: 2rem;
+    width: 7rem;
+    font-family: cursive;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+.trans-btn h3 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .trans-btn:hover h3 {
+    padding-right: 25px;
+  }
+  .trans-btn:hover h3:after {
+    opacity: 1;
+    right: 0;
+  }
+.trans-btn h3:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+.text-output{
+    margin:1% 0% 1% 35%;
+    width: 30%;
+    height: 5rem;
+    border: 1px solid black;
+}
+.about-sec{
+    padding-bottom: 0.5rem;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footer-div{
+    font-size: 17px;
+    padding-bottom: 0.5rem;
+}
