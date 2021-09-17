@@ -5,6 +5,12 @@ With Pirate Speak Translator, you can translate simple english to the speeches o
 
 ## Tech-stack: HTML, CSS, JavaScript(basics)
 
+## User Input: 
+  - Any text message
+
+## Output
+  - Converted text in pirates language
+
 ## Connect with me on following platforms:
 - LinkedIn:( https://www.linkedin.com/in/neha-gopinathan-167a71101/)
 - Twitter: (https://twitter.com/NehaGopinathan)
